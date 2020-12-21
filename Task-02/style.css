@@ -1,0 +1,319 @@
+body{margin: 0;
+    padding: 0;
+}
+
+.home{
+    background-image: url(images/home.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: auto;
+    height: 900px;
+    padding:0;
+    margin:0;
+    
+}
+
+.landing-text{
+    padding-left: 67px;
+    padding-top: 20px;
+    font-size: 28px;
+    font-weight: 700px;
+    color:#d9f0ff;
+    font-family:SegoeUI-Bold, Segoe UI;
+    float: left;
+    transform:translate(0 30);
+    
+}
+
+.navgation_bar{
+    padding-top: 20px;
+    height: 17px;
+    float: right;
+    text-align: center;
+    font-family: Poppins-Regular, Poppins;
+    font-size: 12px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+li{
+    float: left; 
+}
+li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    padding: 16px;
+    text-decoration:none;
+}
+li a:hover{
+    background-color: #2c53a8;
+    border-radius: 36px;
+}
+
+/* text in first container */
+.text_in_home{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 100px;
+    font-family: Lato-Light, Lato;
+    font-weight: 300px;
+    letter-spacing: -0.05em;
+    color: #fff;
+}
+.text_under_headline{
+    width: 1072.14px;
+    height: 101.38px;
+    padding-left:209.4px;
+    padding-right: 98.5px;
+    text-align:center;
+    font-family: Poppins-Regular, Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+}
+.Button-first-container{
+    padding-top: 3.5px;
+    padding-left: 590px;
+
+}
+.button1{
+    width: 307px;
+    height: 72px;
+    color: white;
+    background-color: #325dff;
+    border-radius: 36px;
+    border: unset;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Poppins-Regular, Poppins;
+    letter-spacing: 0.3em;
+}
+.button1:hover{
+    border-radius: 36px;
+    background-color:#2c53a8;
+    cursor:pointer;
+
+}
+
+/* this is for second container */
+.container-split{
+    display: flex;
+    flex-direction: row;
+    font-family: Poppins-Regular, Poppins;
+}
+.part-one-split{
+    text-align: left;
+    flex: 50%;
+    height: 601.44px;
+   
+}
+.div1-second-container {
+    width: 468;
+    height: 186;
+    padding-left: 75px;
+    padding-top: 30px;
+    padding-right: 97px;
+    padding-bottom: 24px ;
+}
+.div2-second-container{
+    width: 457;
+    height: 128;
+    padding-left: 86px;
+    padding-top: 0px;
+    padding-right: 97px;
+    padding-bottom: 0;
+
+}
+.div3-second-container{
+    width: 307;
+    height: 72;
+    padding-left: 82px;
+    padding-top: 0px;
+    padding-right: 251px;
+    padding-bottom: 101.4px;
+
+}
+.part-two-split{
+    flex: 50%;
+    height: 601.44px; 
+}
+.part-two-split > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    float: left;
+}
+@media (max-width: 740px) {
+.flex-container {
+    flex-direction: column;
+}}
+
+.all_headline50{
+    font-size: 50px;
+    font-family: Poppins-Regular, Poppins;
+}
+.all_paragraph{
+    font-size: 16px;
+    font-family: Poppins-Regular, Poppins;
+}
+
+/* this is for third container */
+
+.third-container{
+    text-align: center;
+    background-color:#eeeeee;
+    font-family: Poppins-Regular, Poppins;
+}
+.all_headline35{
+    font-size: 35px;
+}
+
+.first-div-in-third-contanier{
+    padding-top: 76.6px;
+    padding-left: 355px;
+    padding-right: 254px;
+    padding-bottom: 18px;
+}
+.headline-in-first-div-third-container{
+    padding-left: 100px;
+    padding-right: 101px;
+    text-align: center;            
+}
+.paragraph-in-first-div-third-container{
+    text-align: center;
+    padding-top: 9px;           
+}
+
+.second-div-in-third-contanier{
+    display: grid;
+    height: 773px;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+    padding-left: 55px;
+    padding-right: 54px;
+    padding-bottom: 105px;
+
+
+}
+.umbrella{
+    width:150px ;
+    height: 88px;
+    padding-left: 120px;
+}
+.umbrella > .circle{
+    width: 88px;
+    height: 88px;
+    background-color: #325dff;
+    border-radius: 50%;
+
+
+}
+
+.second-div-in-third-contanier > div{
+    background-color: #fff;
+    height: 374px;
+    text-align: center;
+    border:0.5px solid #CECECE;
+    
+}
+.item{
+    padding-top: 67px;
+    padding-right: 59px;
+    padding-left: 61px;
+    padding-bottom: 44px;
+}
+.aligning-icon{
+    padding-top: 28px;
+}
+
+/* fourth container */
+.fourth-container{
+    background-image: url(images/hotelview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 601.44px;
+    font-family: Poppins-Regular, Poppins;
+    
+}
+.main-div-fourth-container{
+    width: auto;
+    padding-top: 215px;
+    color: white;
+}
+
+.first-div-fourth-container{
+    width:44px;
+    height:56px;
+    padding-left:48%;
+    padding-bottom:68px;
+
+}
+.second-div-fourth-container{
+    width:570px;
+    height:70px;
+    padding-left:470px;
+}
+.third-div-fourth-container{
+    width:771px;
+    height:71px; 
+    padding-left:370px;
+    padding-bottom:132px;
+}
+.second-div-fourth-container > p{
+    text-align: center;
+}
+.third-div-fourth-container > p{
+    text-align: center;
+}
+
+/* fifth container */
+.main-div-in-fifth-container{
+    padding-top: 84.6px;
+    padding-left: 355px;
+    padding-right: 254px;
+    padding-bottom: 68px;
+    height: 130px;
+    text-align: center;
+    font-family: Poppins-Regular, Poppins;
+    background-color:#dddddd;
+}
+.first-div-in-fifth-container{
+    width: 570px;
+    height: 50px;
+    padding-left: 120px;
+    padding-right: 101px;
+    padding-bottom: 9px;
+}
+.second-div-in-fifth-container{
+    width: 771px;
+    height: 71px;
+    padding-left: 20px;
+
+}
+.first-div-in-fifth-container > p , .second-div-in-fifth-container > p{
+    margin: 0%;
+}
+
+/* this is for the footer */
+.footer{
+    width: 100%;
+    height: 140px;
+    color: white;
+    background-color: #325dff;
+    text-align: center;
+    font-family: Poppins-Regular, Poppins;
+    transform: translate(397 5394);
+}
+.footer > div{
+    padding-left: 397px;
+    padding-right: 397px;
+    padding-top: 58px;
+    padding-bottom: 58px;
+}
