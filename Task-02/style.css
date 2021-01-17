@@ -89,9 +89,7 @@ li a:hover{
     border-radius: 36px;
     border: unset;
     font-size: 14px;
-    font-weight: bold;
     font-family: Poppins-Regular, Poppins;
-    letter-spacing: 0.3em;
 }
 .button1:hover{
     border-radius: 36px;
